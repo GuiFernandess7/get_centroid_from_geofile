@@ -4,7 +4,7 @@ import fiona
 
 #gpd.io.file.fiona.drvsupport.supported_drivers['kml'] = 'rw'
 #gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
-gpd.io.file.fiona.drvsupport.supported_drivers['LIBKML'] = 'rw'
+#gpd.io.file.fiona.drvsupport.supported_drivers['LIBKML'] = 'rw'
 #fiona.drvsupport.supported_drivers['kml'] = 'rw'  # enable KML support which is disabled by default
 #fiona.drvsupport.supported_drivers['KML'] = 'rw'  # enable KML support which is disabled by default
 #fiona.drvsupport.supported_drivers['LIBKML'] = 'rw'  # enable KML support which is disabled by default
