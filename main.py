@@ -5,9 +5,9 @@ import fiona
 #gpd.io.file.fiona.drvsupport.supported_drivers['kml'] = 'rw'
 #gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
 #gpd.io.file.fiona.drvsupport.supported_drivers['LIBKML'] = 'rw'
-#fiona.drvsupport.supported_drivers['kml'] = 'rw'  # enable KML support which is disabled by default
-#fiona.drvsupport.supported_drivers['KML'] = 'rw'  # enable KML support which is disabled by default
-#fiona.drvsupport.supported_drivers['LIBKML'] = 'rw'  # enable KML support which is disabled by default
+fiona.drvsupport.supported_drivers['kml'] = 'rw'  # enable KML support which is disabled by default
+fiona.drvsupport.supported_drivers['KML'] = 'rw'  # enable KML support which is disabled by default
+fiona.drvsupport.supported_drivers['LIBKML'] = 'rw'  # enable KML support which is disabled by default
 
 def converter_kmz_para_geodataframe(arquivo_kmz):
     gdf = gpd.read_file(arquivo_kmz)
